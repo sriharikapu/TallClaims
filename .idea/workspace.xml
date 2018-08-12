@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57abd1e8-5c66-46e7-9603-3f2e009bec9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/research.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/researchDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/research.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/research.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/researches.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/researches.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/research_paper_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/research_paper_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/research_paper_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/research_paper_list.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,22 +46,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="research_paper_list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="research_paper_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/research_paper_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="research_paper_details.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="research_paper_details.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/research_paper_details.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
@@ -118,8 +105,8 @@
         <option value="$PROJECT_DIR$/views/login_form.html" />
         <option value="$PROJECT_DIR$/views/account_details.html" />
         <option value="$PROJECT_DIR$/views/research_paper_add.html" />
-        <option value="$PROJECT_DIR$/views/research_paper_list.html" />
         <option value="$PROJECT_DIR$/views/research_paper_details.html" />
+        <option value="$PROJECT_DIR$/views/research_paper_list.html" />
       </list>
     </option>
   </component>
@@ -138,8 +125,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2732" />
-    <option name="y" value="-4" />
+    <option name="x" value="1366" />
+    <option name="y" value="1532" />
     <option name="width" value="1366" />
     <option name="height" value="772" />
   </component>
@@ -219,7 +206,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15822000" />
+    <option name="totallyTimeSpent" value="16113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -332,12 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,6 +457,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/research_paper_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/account_details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -502,21 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/research_paper_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/research_paper_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="420">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
