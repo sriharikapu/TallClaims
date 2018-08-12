@@ -29,8 +29,9 @@ module.exports = {
   assign: function(req, res){
     address = req.body.address;
     to = req.body.to;
-    verdict = "Pending";
-    researches.update({"_id": to}, { $push: { assigned: { "assigned": address, "verdict": verdict}}}, function(err){
+    comment = req.body.comment;
+    verdict = req.body.verdict || "pending";
+    researches.update({"_id": to}, { $push: { assigned: { "assigned": address, "verdict": verdict, "comment": comment}}}, function(err){
       if(err){
         console.log(err);
         res.json({
@@ -61,6 +62,19 @@ module.exports = {
         res.json({
           'done': true
         });
+      }
+    });
+  },
+  comments: function(req, res){
+    console.log("getting comments");
+    id = req.params.id;
+    researches.findOne({'_id': id}, function(err, doc){
+      if(err){
+        console.log(err);
+        res.json({'doc': []});
+      }
+      else{
+        res.json({'doc': doc});
       }
     });
   }
