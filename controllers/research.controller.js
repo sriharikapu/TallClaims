@@ -1,9 +1,10 @@
 var researchModel = require('../models/research.model');
-var mongoose = require('mongoose');
+var Datastore = require('nedb');
+researches = new Datastore({ filename: 'data/researches.db', autoload: true });
 module.exports = {
   find: function(req, res){
     viewResearches = [];
-    researchModel.find({}, function(err, researches) {
+    researchModel.find({_id: { $exists: true}}, function(err, researches) {
       if(err) {
         console.log(err);
       }
@@ -40,5 +41,11 @@ module.exports = {
         });
       }
     });
+  },
+  add: function(req, res){
+    title = req.body.title;
+    description = req.body.description;
+    assigned = [];
+    needed = 3;
   }
 };

@@ -8,6 +8,7 @@ var research = require('./controllers/research.controller');
 module.exports = function(app){
   router.get('/getList', research.find);
   router.post('/assign', research.assign);
+  router.post('/add', research.add);
   /*router.post('/editJrfInfo', student.basicInfo);
   router.get('/faculty/id/:id', faculty.id);
   router.get('/faculty/:id/edit', function(req, res){
