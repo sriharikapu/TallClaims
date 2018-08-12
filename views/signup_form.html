@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Create Account </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="../public/js/jquery-3.1.1.min.js"></script>
-  <script src="../public/js/bootstrap.min.js"></script>
+    <title> Create Account </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="../public/js/jquery-3.1.1.min.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
 </head>
 <body>
 
 <div class="container">
-  <h1> TallClaim ! First decentralized research validation system </h1>
-  <br>
-  <h1>Enter password to Create a new Account</h1>
-  <br>
-  <form action="/views/account_details.html" >
-    <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-      <input id="password" type="password" class="form-control" name="password" placeholder="Password">
-    </div>
+    <h1 class="center-block"> <p class="text-center"> TallClaim </p> </h1>
+    <h3> <p class="text-center"> First decentralized research validation platform  </p>  </h3>
     <br>
-    <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-      <input id="confirm_password" type="password" class="form-control" placeholder="Confirm Password">
-    </div>
+    <h1> Enter password to Create a new Account</h1>
     <br>
-    <button class="btn btn-default" > Submit </button>
-  </form>
-  <br>
+    <form action="/views/account_details.html" >
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="confirm_password" type="password" class="form-control" placeholder="Confirm Password">
+        </div>
+        <br>
+        <button class="btn btn-default" onclick="myFunction()" > Submit </button>
+    </form>
+    <br>
 
 </div>
+
+<script>
+    function myFunction() {
+        alert("Account Successfully Created");
+    }
+</script>
 
 </body>
 </html>
