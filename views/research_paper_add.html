@@ -7,6 +7,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="../public/js/jquery-3.1.1.min.js"></script>
   <script src="../public/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+          alert("Research paper added successfully");
+      });
+    });  
+  </script>
 </head>
 <body>
 
@@ -15,18 +22,19 @@
   <br>
   <h1> Add Research Paper </h1>
   <br>
-  <form action="/views/account_details.html" >
+  <form action="/views/research_paper_list.html" >
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
       <input id="title" type="text" class="form-control" name="password" placeholder="Title">
     </div>
     <br>
-    <div class="input-group">
+    <div class="input-group" id="sub">
       <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
       <input id="description" type="text"  class="form-control col-md-4" style="min-height: 200px" placeholder="Description">
     </div>
     <br>
-    <button class="btn btn-default" > Submit </button>
+    <button class="btn btn-default"> Submit </button>
+    
   </form>
   <br>
 
