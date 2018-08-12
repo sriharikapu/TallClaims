@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Create Account </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="../public/js/jquery-3.1.1.min.js"></script>
+  <script src="../public/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1> TallClaim ! First decentralized research validation system </h1>
+  <br>
+  <h1> Research Paper Details </h1>
+  <br>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="disabledInput1" class="col-sm-2 control-label">Title</label>
+            <div class="col-sm-10">
+                <pre class="form-control" id="disabledInput1"> Demo Title </pre>
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="disabledInput2" class="col-sm-2 control-label">Description</label>
+            <div class="col-sm-10">
+                <pre class="form-control" style="min-height: 200px"  id="disabledInput2"> Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.<br> <br> Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.<br><br>Demo Description is very long because Research Papers are very long.<br>Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.Demo Description is very long because Research Papers are very long.</pre> </div>
+        </div>
+        <br>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Not Agree</button>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Agree</button>
+    </form>
+
+  <br>
+
+</div>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+          <form action="/views/account_details.html" >
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                  <input id="user-title" type="text" class="form-control" name="password" placeholder="Title">
+              </div>
+              <br>
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                  <input id="user-description" type="text"  class="form-control col-md-4" style="min-height: 200px" placeholder="Description">
+              </div>
+              <br>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
+
