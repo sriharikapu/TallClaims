@@ -10,6 +10,6 @@ $.get("http://localhost:5000/comments/" + localStorage.getItem('id'), function(d
   }
   console.log(comments);
   $('#comments').html(comments);
-  $('#title').html(data.doc.title);
+  $('#disabledInput1').html(data.doc.title);
   $('#disabledInput2').html(data.doc.description);
 });

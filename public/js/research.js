@@ -5,7 +5,7 @@ $.get("http://localhost:5000/getList", function(data){
   for(var x = 0; x < data.length; x += 3){
     temp = `<div class="row">`;
     for(var y = 0; y < 3 && x+y < data.length; y++){
-      temp += `<div class="card col-sm" style="width: 18rem; margin-left: 20px;>
+      temp += `<div class="card col-sm" style="width: 18rem; margin-left: 20px;">
               <div class="card-body">
                 <h5 class="card-title">${data[x+y].title}</h5>
                 <p class="card-text">${data[x+y].description}</p>
